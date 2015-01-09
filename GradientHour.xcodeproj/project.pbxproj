@@ -13,6 +13,7 @@
 		C712C78B1A5F6DF60013CEA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C712C78A1A5F6DF60013CEA2 /* Images.xcassets */; };
 		C712C78E1A5F6DF60013CEA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C712C78C1A5F6DF60013CEA2 /* LaunchScreen.xib */; };
 		C712C79A1A5F6DF60013CEA2 /* GradientHourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C7991A5F6DF60013CEA2 /* GradientHourTests.swift */; };
+		C712C7A41A5F6E480013CEA2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C7A31A5F6E480013CEA2 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C712C7931A5F6DF60013CEA2 /* GradientHourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientHourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C712C7981A5F6DF60013CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C712C7991A5F6DF60013CEA2 /* GradientHourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHourTests.swift; sourceTree = "<group>"; };
+		C712C7A31A5F6E480013CEA2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C712C7831A5F6DF60013CEA2 /* AppDelegate.swift */,
 				C712C7851A5F6DF60013CEA2 /* ViewController.swift */,
+				C712C7A31A5F6E480013CEA2 /* Colors.swift */,
 				C712C7871A5F6DF60013CEA2 /* Main.storyboard */,
 				C712C78A1A5F6DF60013CEA2 /* Images.xcassets */,
 				C712C78C1A5F6DF60013CEA2 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C712C7861A5F6DF60013CEA2 /* ViewController.swift in Sources */,
+				C712C7A41A5F6E480013CEA2 /* Colors.swift in Sources */,
 				C712C7841A5F6DF60013CEA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

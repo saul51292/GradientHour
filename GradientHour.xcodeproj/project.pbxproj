@@ -14,6 +14,11 @@
 		C712C78E1A5F6DF60013CEA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C712C78C1A5F6DF60013CEA2 /* LaunchScreen.xib */; };
 		C712C79A1A5F6DF60013CEA2 /* GradientHourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C7991A5F6DF60013CEA2 /* GradientHourTests.swift */; };
 		C712C7A41A5F6E480013CEA2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C7A31A5F6E480013CEA2 /* Colors.swift */; };
+		C7FD67C61A60C32600BD8E9F /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FD67C51A60C32600BD8E9F /* MZTimerLabel.m */; };
+		C7FD67C81A60C58E00BD8E9F /* countdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FD67C71A60C58E00BD8E9F /* countdownLabel.swift */; };
+		C7FD67CE1A60C69700BD8E9F /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FD67C51A60C32600BD8E9F /* MZTimerLabel.m */; };
+		C7FD67D41A61154300BD8E9F /* BEMAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FD67D11A61154300BD8E9F /* BEMAnalogClockView.m */; };
+		C7FD67D51A61154300BD8E9F /* KSMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FD67D31A61154300BD8E9F /* KSMHand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,14 @@
 		C712C7981A5F6DF60013CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C712C7991A5F6DF60013CEA2 /* GradientHourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHourTests.swift; sourceTree = "<group>"; };
 		C712C7A31A5F6E480013CEA2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C7FD67C31A60C32500BD8E9F /* GradientHour-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradientHour-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7FD67C41A60C32600BD8E9F /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		C7FD67C51A60C32600BD8E9F /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		C7FD67C71A60C58E00BD8E9F /* countdownLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countdownLabel.swift; sourceTree = "<group>"; };
+		C7FD67D01A61154300BD8E9F /* BEMAnalogClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnalogClockView.h; sourceTree = "<group>"; };
+		C7FD67D11A61154300BD8E9F /* BEMAnalogClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnalogClockView.m; sourceTree = "<group>"; };
+		C7FD67D21A61154300BD8E9F /* KSMHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMHand.h; sourceTree = "<group>"; };
+		C7FD67D31A61154300BD8E9F /* KSMHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMHand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +98,8 @@
 				C712C7871A5F6DF60013CEA2 /* Main.storyboard */,
 				C712C78A1A5F6DF60013CEA2 /* Images.xcassets */,
 				C712C78C1A5F6DF60013CEA2 /* LaunchScreen.xib */,
+				C7FD67C31A60C32500BD8E9F /* GradientHour-Bridging-Header.h */,
+				C7FD67CC1A60C5B900BD8E9F /* countdownLabel */,
 				C712C7811A5F6DF50013CEA2 /* Supporting Files */,
 			);
 			path = GradientHour;
@@ -93,6 +108,12 @@
 		C712C7811A5F6DF50013CEA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C7FD67D01A61154300BD8E9F /* BEMAnalogClockView.h */,
+				C7FD67D11A61154300BD8E9F /* BEMAnalogClockView.m */,
+				C7FD67D21A61154300BD8E9F /* KSMHand.h */,
+				C7FD67D31A61154300BD8E9F /* KSMHand.m */,
+				C7FD67C41A60C32600BD8E9F /* MZTimerLabel.h */,
+				C7FD67C51A60C32600BD8E9F /* MZTimerLabel.m */,
 				C712C7821A5F6DF60013CEA2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +134,14 @@
 				C712C7981A5F6DF60013CEA2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7FD67CC1A60C5B900BD8E9F /* countdownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C7FD67C71A60C58E00BD8E9F /* countdownLabel.swift */,
+			);
+			name = countdownLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C712C7861A5F6DF60013CEA2 /* ViewController.swift in Sources */,
+				C7FD67C61A60C32600BD8E9F /* MZTimerLabel.m in Sources */,
+				C7FD67D41A61154300BD8E9F /* BEMAnalogClockView.m in Sources */,
 				C712C7A41A5F6E480013CEA2 /* Colors.swift in Sources */,
+				C7FD67C81A60C58E00BD8E9F /* countdownLabel.swift in Sources */,
 				C712C7841A5F6DF60013CEA2 /* AppDelegate.swift in Sources */,
+				C7FD67D51A61154300BD8E9F /* KSMHand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FD67CE1A60C69700BD8E9F /* MZTimerLabel.m in Sources */,
 				C712C79A1A5F6DF60013CEA2 /* GradientHourTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,9 +374,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GradientHour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GradientHour/GradientHour-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +387,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GradientHour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GradientHour/GradientHour-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +448,7 @@
 				C712C79F1A5F6DF60013CEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C712C7A01A5F6DF60013CEA2 /* Build configuration list for PBXNativeTarget "GradientHourTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +457,7 @@
 				C712C7A21A5F6DF60013CEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

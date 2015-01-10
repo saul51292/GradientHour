@@ -131,7 +131,7 @@ class Colors {
         
         
         
-        var hour = getHourOfDay()
+        var hour = 8
         
         switch hour  {
         case 1:

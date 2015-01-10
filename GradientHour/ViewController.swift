@@ -13,6 +13,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var showTimer: UIButton!
     let colors = Colors()
     var backgroundLayer = Colors().gl
     
@@ -20,6 +21,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+    
+        
+        ///IF all deals expire show countdownlabelView
+        
         backgroundLayer.frame = view.frame
         view.layer.insertSublayer(backgroundLayer, atIndex: 0)
         animateLayer()
@@ -31,8 +36,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
+      
     
     func animateLayer() {
         

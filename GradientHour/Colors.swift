@@ -79,8 +79,7 @@ class Colors {
     var twentyThreeTopColor = UIColor(red: (6/255.0), green: (14/255.0), blue: (62/255.0), alpha: 1.0)
     var twentyThreeBottomColor = UIColor(red: (0/255.0), green: (35/255.0), blue: (88/255.0), alpha: 1.0)
     
-    
-    
+    var hour:Int!
     var toArray = [UIColor(red: (0/255.0), green: (17/255.0), blue: (72/255.0), alpha: 1.0).CGColor, UIColor(red: (2/255.0), green: (19/255.0), blue: (34/255.0), alpha: 1.0).CGColor]
     
     let gl: CAGradientLayer
@@ -91,20 +90,20 @@ class Colors {
         gl.locations = [ 0.0, 1.0]
     }
     
-    
-    func getHourOfDay()->Int {
+    func getCalendar()->NSDateComponents{
         let date = NSDate()
         let calendar = NSCalendar.currentCalendar()
         let components = calendar.components(.CalendarUnitHour | .CalendarUnitMinute, fromDate: date)
-        let hour = components.hour
+        return components
+    }
+    
+    func getHourOfDay()->Int {
+        hour = getCalendar().hour
         println("The hour is \(hour)")
-        
         return hour
     }
     
-    func setArrays() -> [CGColor!]
-    {
-        
+    func setArrays() -> [CGColor!]{
         var oneArray = [oneTopColor.CGColor, zeroBottomColor.CGColor]
         var twoArray = [twoTopcolor.CGColor, zeroBottomColor.CGColor]
         var threeArray = [threeTopColor.CGColor, threeBottomColor.CGColor]
@@ -129,9 +128,6 @@ class Colors {
         var twentyTwoArray = [twentyTwoTopColor.CGColor, twentyTwoBottomColor.CGColor]
         var twentyThreeArray = [twentyThreeTopColor.CGColor, twentyThreeBottomColor.CGColor]
         
-        
-        
-        var hour = 8
         
         switch hour  {
         case 1:
